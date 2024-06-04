@@ -1,0 +1,169 @@
+.date-picker .input-container {
+  max-width: 310px;
+  margin: 20px auto;
+  position: relative;
+  border: 2px solid #000;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.date-picker .input-prepend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  overflow: hidden;
+  padding: 0px 5px;
+}
+
+.date-picker #sub-prepend {
+  display: flex;
+  flex-direction: row;
+}
+
+.date-picker .date-range {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.date-picker .date-range input {
+  text-align: center;
+  border: 0;
+  width: 50%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.date-picker .prepend-icon {
+  font-size: 20px;
+  margin: 0 10px;
+  color: #777;
+}
+
+.date-picker button#toggleButton {
+  background-color: #fff;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.date-picker .dropdown {
+  display: none;
+  width: 100%;
+  background-color: #fff;
+  border-top: 2px solid #000;
+  border-radius: 0 0 5px 5px;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.date-picker ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.date-picker li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.date-picker li:hover {
+  background-color: #f0f0f0;
+}
+
+.date-picker .hidden {
+  display: none;
+}
+
+.date-picker .calendar {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.date-picker .calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 0px 13px;
+}
+
+.date-picker .calendar-sub-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.date-picker .calendar-table {
+  width: 100%;
+  border-spacing: 5px;
+}
+
+.date-picker .calendar-table th,
+.date-picker .calendar-table td {
+  text-align: center;
+  padding: 5px;
+}
+
+.date-picker .highlight {
+  background-color: #ffc107; /* Choose your highlight color */
+}
+
+.date-picker .calendar-date-disabled {
+  color: #d3d3d3;
+  pointer-events: none;
+}
+
+.date-picker .pre-defined button {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 6px;
+  margin-left: 5px;
+  background: inherit;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.date-picker #currentMonthYear {
+  font-weight: bold;
+}
+
+.date-picker #prevMonth,
+.date-picker #nextMonth {
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.date-picker .calendar-date {
+  height: 30px;
+  width: auto;
+}
+
+.date-picker .calendar-date:hover {
+  background-color: #18c06f;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.date-picker .date-selected {
+  background-color: #18c06f;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.date-picker .date-range {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 2px;
+}

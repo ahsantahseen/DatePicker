@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Prepend Toggle Dropdown</title>
+    <link rel="stylesheet" href="date-picker.css">
+</head>
+
+<body>
+    <div class="date-picker">
+        <div class="input-container">
+            <div class="input-prepend" id="input-prepend">
+                <div id="sub-prepend">
+                    <img src="calendar-icon.svg" alt="Down Arrow" class="prepend-icon">
+                    <div class="date-range">
+                        <input id="startDate" type="text" placeholder="DD.MM.YYYY">-<input id="endDate" type="text"
+                            placeholder="DD.MM.YYYY">
+                    </div>
+                </div>
+                <button id="toggleButton" class="down-arrow"><img src="arrow-down.svg" alt="Down Arrow"></button>
+            </div>
+            <div class="dropdown" id="dropdown">
+                <div class="calendar">
+                    <div class="calendar-header">
+                        <div class="calendar-sub-header pre-defined" style="margin: 10px 0px;">
+                            <button>LAST 6 MONTHS</button><button>LAST 3 MONTHS</button><button>CURRENT MONTH</button>
+                        </div>
+                        <div class="calendar-sub-header">
+                            <span id="currentMonthYear"></span>
+                            <div>
+                                <img src="arrow-down.svg" alt="Prev Arrow" id="prevMonth">
+                                <img src="arrow-up.svg" alt="Next Arrow" id="nextMonth" style="margin-bottom: 1px;">
+                            </div>
+                        </div>
+                    </div>
+                    <table class="calendar-table">
+                        <thead>
+                            <tr>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>T</th>
+                                <th>W</th>
+                                <th>T</th>
+                                <th>F</th>
+                                <th>S</th>
+                            </tr>
+                        </thead>
+                        <tbody id="calendar-body">
+                            <!-- Calendar days will be inserted here using JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script type="module" src="date-picker.js"></script>
+</body>
+
+</html>
