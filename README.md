@@ -1,5 +1,5 @@
-## DateRange
-> A Lightweight and Customizable DateRange Component in HTML (No Libraries Needed)
+## DateRangePicker
+> A Lightweight and Customizable DateRangePicker Component in HTML (No Libraries Needed)
 
 <a href="https://ibb.co/HnHB615"><img src="https://i.ibb.co/J5smV0D/Add-a-heading-1.png" alt="Add-a-heading-1" border="0"></a>
 
